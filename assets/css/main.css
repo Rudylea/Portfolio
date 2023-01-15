@@ -2656,6 +2656,11 @@ html {
 			background-image: url('images/ecranmoyen.png');
 		}
 	}
+  @media screen and (aspect-ratio: 16/10) {
+	#header {
+		background-image: url("images/1610.png");
+	}
+}
 
 		#header > * {
 			-moz-flex-shrink: 0;
