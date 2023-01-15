@@ -2640,6 +2640,22 @@ html {
 		top: 0;
 		width: 35%;
 	}
+       /*differents ecrans*/
+    @media (max-width: 500px) {
+	#header {
+	background-image: url('images/mobile.png');
+	}
+   }
+    @media (min-width: 500px) and (max-width: 950px) {
+	#header {
+		background-image: url('images/mobilhorizontal.png');
+	}
+   }
+    @media (min-width: 950px) and (max-width: 1300px) {
+		#header {
+			background-image: url('images/ecranmoyen.png');
+		}
+	}
 
 		#header > * {
 			-moz-flex-shrink: 0;
