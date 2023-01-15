@@ -2659,6 +2659,7 @@ html {
   @media screen and (aspect-ratio: 16/10) {
 	#header {
 		background-image: url("images/1610.png");
+		width: 20%;
 	}
 }
 
